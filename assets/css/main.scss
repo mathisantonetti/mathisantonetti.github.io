@@ -41,3 +41,12 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+/* Espace automatique autour des équations centrées ($$) */
+.MathJax_Display, 
+mjx-container[display="true"] {
+  margin-top: 2rem !important;   /* Espace au-dessus */
+  margin-bottom: 2rem !important; /* Espace en-dessous */
+  display: block !important;
+  padding: 10px 0;               /* Respiration interne */
+}
